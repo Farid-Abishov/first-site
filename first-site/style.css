@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+h2{
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*sidebar*/
+.container{
+    padding:4.2rem;
+   
+}
+
+#sidebar{
+    height: 100%;
+    width:30%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: white;
+    overflow: hidden;
+    display: inline-block;
+}
+#clear{
+    width: 30%;
+    height: 100vh;
+    display: inline-block;
+}
+.side-header{
+    color: black;
+    font-size: 3.6rem;
+    letter-spacing: .1rem;
+    margin-top: 1.6rem;
+}
+.line{
+    width: 9rem;
+    border-bottom: 1px solid #aaa;
+    margin-top: .9rem;
+    margin-bottom: .9rem;
+}
+.side-text{
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+    color: #aaa;
+    font-size: 1.4rem;
+    line-height:145%;
+}
+.nav-link{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    color: #aaa;
+    letter-spacing: .1rem;
+    transition: all 0.3s;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-item{
+    margin-bottom: .3rem;
+}
+nav{
+    margin-top: 2.2rem;
+    margin-bottom: 3.2rem; 
+}
+
+.social-link{
+    font-size: 2.2rem;
+    color: #aaa;
+    margin-right:.6rem;
+    transition: all 0.3s ease;
+}
+.social-link:hover{
+   color: black;
+}
+.end-link{
+    color: #aaa;
+    transition: all 0.3s;
+    letter-spacing: .1rem;
+}
+.end-link:hover{
+    color: black;
+}
+.text-end{
+    letter-spacing: .1rem;
+    margin-top: 1.6rem;
+    font-size: 1.1rem;
+    color: #aaa;
+}
+/*main*/
+#main{
+    width: 70%;
+    display: inline-block;
+    background-color: #f1f1f1;
+}
+
+.blog-post-container{
+    padding:4.2rem;
+}
+
+.blog-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.blog-img:hover{
+    opacity: 0.8;
+}
+.blog-post{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.blog-up{
+    background-color: #fff;
+    padding: 2.4rem;
+    border-radius:.5rem;
+    /* overflow:hidden; */
+}
+.blog-header{
+    margin-bottom: 1.1rem;
+    font-size:2.9rem;
+}
+.blog-text{
+    color: #aaa;
+    margin-top:1.1rem ;
+    margin-bottom: 1.1rem;
+}
+.blog-date{
+    color: #aaa;
+    margin-top: .7rem;
+    font-size: 1.2rem;
+}
+.btn{
+    color: #fff;
+    background-color:gray;
+    padding: 1.4rem 2.5rem;
+    border-radius: .4rem;
+    border: 1px solid;
+     transition: all 0.3s ;
+     margin-left:4.2rem;
+     margin-bottom: 3.2rem;
+     margin-top:.3rem;
+}
+.btn:hover{
+    background-color:darkgrey;
+}
