@@ -205,3 +205,17 @@ footer{
 background-color:#125688;
 color:#fff;
 }
+ #backtotop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    }
+ #backtotop i{
+    font-size: 45px;
+    color: #2E4C6D;
+    transition: color .6s;
+    }
+
+    #backtotop i:hover{
+        color: #2E4C6D;
+     }
