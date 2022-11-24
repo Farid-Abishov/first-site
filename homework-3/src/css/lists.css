@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    text-decoration: none;
+}
+.cmn{
+    width: 300px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.cmn li{
+    border: 1px solid black;
+}
+.first{
+    background-color: blue;
+}
+.scnd{
+    background-color: red;
+}
+.third{
+    background-color: green;
+}
+.fourth{
+    background-color: brown;
+}
+div{
+    /* display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center; */
+    height: 100vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
