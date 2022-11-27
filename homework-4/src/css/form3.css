@@ -14,15 +14,20 @@ body{
     margin: 50px auto;
 }
 .bckgrnd{
+    position: relative;
     width: 100%px;
     height: 150px;
     background-position: center;
     background-size: cover;
 }
+
 .content{
-    color: white;
     text-align: center;
-   margin-top: -50px;
+    position: absolute;
+    color: white;
+   top: 50%;
+   left: 50%;
+   transform:translate(-50%,-50%);
 }
 .form{
     width: 100%;
@@ -32,38 +37,37 @@ body{
 input{
     border: none;
     border-bottom: 1px solid black;
-    display: inline-block;
-    width: 69%;
     padding: 10px;
-}
-p{
-    width: 30%;
     display: inline-block;
+    width: 79%;
+
 }
-.incontainer{
-    width: 100%;
+label{
+    display: inline-block;
+    width: 20%;
 }
+
+
 textarea{
     resize: none;
-    width: 69%;
     height: 80px;
     border: none;
     border-bottom: 1px solid black;
+    display: inline-block;
+    width: 79%;
 }
 button{
-    text-align: center;
+    border: none;
+    margin-top: 10px;
+    margin-left: 85px;
     border-radius:20px;
     padding: 12px 24px;
     background-color:rgb(8, 120, 8);
     color: white;
     transition: 0.5s all ease-in-out;
-    margin-left: 128px;
 }
 button:hover{
     color: rgb(8, 120, 8);
     background-color: white;
-}
-.btn{
-    margin-top: 10px;
-   width: 100%;
+    border: 1px solid black;
 }
