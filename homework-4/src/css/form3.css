@@ -41,7 +41,11 @@ input{
     display: inline-block;
     width: 79%;
     outline: none;
-
+    transition: all 0.4s ease-in-out;
+    
+}
+input:hover{
+    background-color: #d6d1d1;
 }
 label{
     display: inline-block;
