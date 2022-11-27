@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(227, 101, 172, 0.97);
+    background-color: rgba(199, 88, 151, 0.97);
     font-family: 'Inter', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
 .form_data{
     width: 500px;
-    margin: 50px auto;
+    margin: 20px auto;
     background-color: white;
     
 }
