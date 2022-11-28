@@ -6,6 +6,11 @@
     text-decoration: none;
     list-style: none;
 }
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 header{
 background-color:rgba(226, 153, 16, 0.999);;
 padding: 20px;
