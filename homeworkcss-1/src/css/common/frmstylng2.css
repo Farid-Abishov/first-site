@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+input{
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid;
+    margin: 10px;
+}
+input[type="email"],input[type="month"],input[type="datetime"]{
+    width: 100%;
+}
+input[type="text"],.smalcontainer,select{
+    display: inline-block;
+    width: 45%;
+}
+button{
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(125, 120, 120);
+    margin-left: 30px;
+}
+select{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}

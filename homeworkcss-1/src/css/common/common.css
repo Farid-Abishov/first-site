@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+
+}
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(181, 178, 178);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+#form_container_1{
+    background-color: #fff;
+    width: 400px;
+    border-radius: 5px;
+    margin: 100px auto;
+}
+#form_container_1 h2{
+    text-align: center;
+    color: rgb(215, 14, 145);
+    margin-bottom: 40px;
+}
+.forminner_container{
+    padding: 20px;
+}
+.form_first input[type="email"],.form_first input[type="password"]{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+input[type="checkbox"]{
+  margin-right: 10px;
+  
+}
+a{
+    margin-left: 2px;
+    color: rgb(25, 120, 230);
+}
+.btn1{
+    background-color:rgb(215, 14, 145);
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+.btn1:hover{
+    background-color: rgb(220, 215, 215);
+    color:rgb(215, 14, 145) ;
+}
+button,.form_first p{
+    display: inline-block;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form_footer{
+    height: 100px;
+    width: 100%;
+    /* margin-top:10px; */
+    padding: 20px;
+    background-color: rgb(142, 137, 137);
+    text-align: center;
+}
+.form_footer i{
+    margin-top:15px;
+    margin-right: 20px;
+    color: #fff;
+}
+/* form2 */
+#form_container_2{
+    background-color: #fff;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+#form_container_2 h2{
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.form_second input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.form_second a{
+    display: block;
+    text-align:end;
+}
+.btn2{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(53, 90, 241);
+    color: #fff;
+    margin-top: 40px;
+}
+.btn2:hover{
+    background-color: rgb(220, 215, 215);
+    color:  rgb(53, 90, 241);
+    
+}
+.form_second p{
+    text-align: center;
+}
+.iconcontainer{
+    text-align: center;
+    margin-top: 50px;
+}
+.form_second i{
+    color:  rgb(53, 90, 241);
+    background-color: rgb(169, 180, 180);
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-size: 16px;
+    margin-right: 7px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
