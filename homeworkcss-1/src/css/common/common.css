@@ -41,7 +41,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 input[type="checkbox"]{
   margin-right: 10px;
-  
+  margin-left: 10px;
 }
 a{
     margin-left: 2px;
