@@ -1,0 +1,100 @@
+header{
+    height:70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    padding: 40px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+nav ul li a{
+   font-weight: bold;
+   text-decoration: none;
+   color: #fff;
+   text-transform: uppercase;
+   position: relative;
+}
+
+/* image-hover-1 */
+section{
+    padding: 30px;
+    background-color: rgb(135, 135, 135);
+   
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.img:hover.img::after{
+    width: 100%;
+}
+
+.img::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.919);
+    position: absolute;
+    width:0;
+    height:100%;
+    top:0;
+    left: 0;
+    right: 0;
+    transition: .1s ease-in-out;
+}
+/* image-hover-2 */
+#img-hover-2{
+    background-color: rgb(227, 196, 155);
+}
+.img-2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.inner-img{
+    width: 300px;
+    height: 300px;
+}
+.img-2:hover .inner-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+/* image-3 */
+.img-3{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.img-3:hover.img-3::after{
+     height: 100%;
+}
+.img-3::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.534);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    transition: .2s ease-in-out;
+}

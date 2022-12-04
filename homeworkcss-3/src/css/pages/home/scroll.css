@@ -1,0 +1,17 @@
+section{
+    /* background-color: black; */
+    text-align: center;
+    padding: 20px;
+}
+.items{
+    width: 30%;
+    background-color: red;
+    height: 500px;
+    display: inline-block;
+}
+.scroll{
+     background-color: rgb(16, 47, 47);
+    height: 500px;
+    width:60%;
+    display: inline-block;
+}
