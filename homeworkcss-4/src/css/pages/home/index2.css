@@ -70,3 +70,25 @@ img{
     height: 0;
     width: 0;
 }
+input{
+    border: 1px solid rgb(110, 108, 108);
+    outline: none;
+    padding: 20px 30px;
+    width: 20px;
+    border-radius: 50%;
+    transition: all 0.6s ease-in-out;
+}
+input:focus{
+    width: 100%;
+    border-radius:4px;
+}
+.search{
+    width: 400px;
+    margin:10px auto;
+    position: relative;
+}
+i{
+    position: absolute;
+    top: 22px;
+    left: 13px;
+}
