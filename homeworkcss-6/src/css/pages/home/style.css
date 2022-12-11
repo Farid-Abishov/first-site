@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 section{
-    background-color: rgba(165, 203, 213, 0.542);
+    background-color: rgba(182, 220, 230, 0.542);
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -10,7 +10,7 @@ body{
     width: 1200px;
     margin: auto;
     padding: 20px;
-    /* padding-top: 40px; */
+    padding-top: 60px;
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
@@ -19,10 +19,11 @@ body{
 }
 .item{
     width:350px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #fff;
     position: relative;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .item:hover button{
     transform: translate(109px, 94px);
@@ -32,7 +33,7 @@ button{
     font-size: 18px;
     position: absolute;
     padding: 15px 20px;
-    background-color: rgb(255, 89, 0);
+    background-color: rgba(255, 89, 0, 0.968);
     color: wheat;   
     border: none; 
     transform: translate(109px, -52px);
@@ -43,7 +44,7 @@ button{
 }
 button:hover{
     cursor: pointer;
-    opacity: 0.9;
+    background-color:rgba(240, 86, 3, 0.768) ;
 }
 img{
     border-top-left-radius: 10px;
