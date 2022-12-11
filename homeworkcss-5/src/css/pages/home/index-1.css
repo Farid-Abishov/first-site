@@ -19,25 +19,23 @@ img{
     position: relative;
 }
 
-.item:hover.item::after{
-   
-   height: 60px;
-   
-}
 .item::after{
+    
     content: " ";
     background-color: rgba(0, 0, 0, 0.503);
     position: absolute;
     bottom: 30px;
-    left: 45px; 
-    width: 86%;
-    height: 0;
+    left: 45px;
+    width: 88%;
+    height: 60px;
     border-radius: 5px;
     transition: all 0.4s ease-in-out;
-    /* animation-name: example;
-   animation-duration: 4s; */
-
+    transform: translate(-7px,90px)
 }
+.item:hover::after{
+    transform: translate(-7px,20px);
+ }
+
 .item-2-container{
     height: 600px;
     display: flex;
@@ -50,19 +48,21 @@ img{
     padding-left: 10px;
     position: relative;
 }
-.item-2:hover.item-2::after{
+.item-2:hover::after{
+    transform: translate(-7px,20px);
     height: 60px;
 }
 .item-2::after{
-    content: "";
-    position: absolute;
-    left: 32px;
-    bottom: 20px;
-    width: 90%;
-    height: 0px;
+    content: " ";
     background-color: rgba(0, 0, 0, 0.503);
+    position: absolute;
+    bottom: 30px;
+    left: 45px;
+    width: 88%;
+    height: 0px;
     border-radius: 5px;
     transition: all 0.4s ease-in-out;
+    transform: translate(-7px,40px)
      
 }
 /* @keyframes example{
