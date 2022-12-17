@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        box-sizing: border-box;
+       
+       }
+       header,footer{
+        background-color: #8262be;
+        padding: 20px;
+        color:firebrick;
+       }
+       .menu{
+        width: 25%;
+       }
+       .content{
+        width: 75%;
+       }
+       .col{
+        float: left;
+        padding: 15px;
+       }
+       .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+       }
+       .menu ul{
+        list-style-type: none;
+        margin-top: 15px;
+       }
+       .menu li{
+        background-color: blueviolet;
+        color: #fff;
+        padding: 10px;
+        margin-bottom: 8px;
+       }
+       .menu li:hover{
+         background-color: coral;
+       }
+    </style>
+</head>
+<body> 
+    <header>
+        <h2>Header</h2>
+    </header>
+ 
+    <main class="clearfix">
+        <div class="menu col">
+            <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+            </ul>
+        </div>
+
+        <div class="content col">
+            <h2>Komple uygulamali web gelistirme egitimi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, corrupti. Ducimus deserunt dolorum nostrum quidem? Sunt nisi impedit quasi dicta, accusantium recusandae repellendus accusamus, asperiores eligendi rerum similique cum doloribus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quod animi pariatur consequatur repudiandae veritatis eos beatae harum vitae, qui perspiciatis laboriosam nesciunt tenetur rem optio quo ut, saepe iure.    
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <h2>footer</h2>
+    </footer>
+    
+</body>
+</html>
