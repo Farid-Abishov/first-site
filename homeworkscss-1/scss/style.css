@@ -197,6 +197,7 @@ nav ul li a {
 #cards .cards-container .item_container .items .card_text p {
   margin-top: 5px;
   font-size: 30px;
+  font-weight: 600;
 }
 #cards .cards-container .item_container .items .card_text p:hover {
   cursor: pointer;
@@ -363,6 +364,7 @@ nav ul li a {
 .all .below .card_container .card_text p {
   margin-top: 5px;
   font-size: 30px;
+  font-weight: 600;
 }
 .all .below .card_container .card_text span {
   display: inline-block;
@@ -449,7 +451,7 @@ nav ul li a {
 #recommend .imgs_container .img_item .end p {
   max-width: 300px;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
 }
 #recommend .imgs_container .img_item .end p:hover {
   text-decoration: underline;

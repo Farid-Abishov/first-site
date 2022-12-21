@@ -163,6 +163,7 @@ nav{
                 p{
                   margin-top: 5px;
                   font-size: 30px;
+                  font-weight: 600;
                   &:hover{
                     cursor: pointer;
                     text-decoration: underline;
@@ -309,6 +310,7 @@ nav{
           p{
             margin-top: 5px;
             font-size: 30px;
+            font-weight: 600;
           }
           span{
             display: inline-block;
@@ -375,7 +377,7 @@ nav{
                 p{
                     max-width: 300px;
                     font-size: 20px;
-                    font-weight:400;
+                    font-weight:700;
                     &:hover{
                         text-decoration: underline;
                     }
@@ -409,9 +411,12 @@ nav{
             display: inline-block;
             @include big_btn(20px,170px,30px,black,white,none,24px,center);
             &:hover{
-                background-color: blue;
+                background-color: $btn_hvr_color;
             }
            }
         }
     }
+}
+#footer{
+
 }
