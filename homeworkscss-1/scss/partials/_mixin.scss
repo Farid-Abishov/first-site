@@ -61,11 +61,42 @@
    font-size: $f_size;
    text-align:$txt_align ;
 }
-// padding: 20px;
-// width: 170px;
-// border-radius: 30px;
-// background-color: black;
-// color: white;
-// text-decoration: none;
-// font-size: 24px;
-// display: block;
+@mixin card_ltl_img(
+    $pstn,
+    $left,
+    $bottom,
+    $width,
+    $height,
+    $display,
+    $trstn,
+    $br_radius,
+    $border,   
+){
+position: $pstn;
+left: $left;
+bottom: $bottom;
+width: $width;
+height: $height;
+display: $display;
+transition: $trstn;
+border-radius: $br_radius;
+border: $border;
+}
+@mixin input(
+ $pdng,
+ $br_radius,
+ $border,
+ $f_size,
+ $color,
+ $bg_color,
+ $transtn,
+
+){
+   padding: $pdng;
+   border-radius: $br_radius;
+   border: $border;
+   font-size: $f_size;
+   color: $color;
+   background-color: $bg_color;
+   transition: $transtn;
+}
