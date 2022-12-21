@@ -478,6 +478,7 @@ nav ul li a {
   color: rgb(208, 204, 204);
   background-color: rgba(219, 215, 215, 0.374);
   transition: 0.2s ease-in-out;
+  text-align: center;
 }
 #recommend .rcmnd_ftr .right input:focus {
   transform: translate(-10px, 0px);
@@ -496,4 +497,52 @@ nav ul li a {
 }
 #recommend .rcmnd_ftr .right a:hover {
   background-color: blue;
+}
+
+#footer {
+  width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+#footer .ftr_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-direction: row;
+}
+#footer .ftr_container .item {
+  padding-bottom: 80px;
+  padding-top: 100px;
+}
+#footer .ftr_container .item .logo_ftr {
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 150px;
+}
+#footer .ftr_container .item .logo_txt {
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 400px;
+}
+#footer .ftr_container .item .link_title {
+  font-weight: 600;
+  text-align: start;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+#footer .ftr_container .item ul li {
+  list-style-type: none;
+  padding: 5px 0px;
+}
+#footer .ftr_container .item ul li i {
+  display: inline-block;
+  margin-right: 5px;
+}
+#footer .ftr_container .item ul li .ftr_link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+#footer .ftr_container .item ul li .ftr_link:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */

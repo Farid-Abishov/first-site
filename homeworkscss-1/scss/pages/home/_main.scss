@@ -400,7 +400,8 @@ nav{
         .right{
            input{
             @include input(
-                20px,30px,none,24px,rgb(208, 204, 204),rgba(219, 215, 215, 0.374), .2s ease-in-out); 
+                20px,30px,none,24px,rgb(208, 204, 204),rgba(219, 215, 215, 0.374), .2s ease-in-out);
+                text-align: center; 
                 
                 &:focus{
                     transform: translate(-10px,0px);
@@ -417,6 +418,51 @@ nav{
         }
     }
 }
-#footer{
 
+#footer{
+     width: $main-width;
+     margin: 0 auto;
+     padding-bottom: 20px;
+    .ftr_container{
+        
+        @include flex(flex,row,space-between,10px);
+        .item{
+             padding-bottom: 80px;
+             padding-top: 100px;
+            .logo_ftr{
+               margin-bottom: 20px;
+               display: inline-block;
+               width: 150px;
+            }
+            .logo_txt{
+               font-size: 20px;
+               font-weight: 500;
+               max-width: 400px;
+            }
+            .link_title{
+                font-weight: 600;
+                text-align: start;
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+            ul{
+                li{
+                    list-style-type: none;
+                    padding: 5px 0px;
+                    i{
+                        display: inline-block;
+                        margin-right: 5px;
+                    }
+                    .ftr_link{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 20px;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+  }
 }
