@@ -10,128 +10,35 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-header {
-  width: 1400px;
-  margin: 0 auto;
-  padding: 30px;
-}
-
-.container {
-  width: var(1300px);
-  margin: 0 auto;
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  flex-direction: row;
-}
-
-.logo {
-  display: block;
-  width: 150px;
-}
-.logo img {
-  width: 100%;
-  height: 100%;
-}
-
-nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  flex-direction: row;
-}
-nav ul button {
-  width: 70px;
-  padding: 6px 16px;
-  background-color: black;
-  color: white;
-  border-radius: 20px;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-  transition: 0.1s ease-in-out;
-}
-nav ul button:hover {
-  background-color: blue;
-}
-nav ul div {
-  position: relative;
-}
-nav ul div i {
-  position: absolute;
-  left: 10px;
-  top: 15px;
-}
-nav ul .height {
-  line-height: 45px;
-}
-nav ul .height:hover {
-  border-bottom: 1px solid black;
-}
-nav ul li .srch {
-  position: relative;
-  padding: 10px 20px;
-  background-color: rgba(221, 217, 217, 0.641);
-  color: black;
-  border-radius: 20px;
-  width: 120px;
-  display: block;
-  text-align: center;
-}
-nav ul li .srch i {
-  position: absolute;
-  left: 0;
-  top: -40px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-}
-
-#text {
-  padding: 30px;
-}
-#text .txt {
-  max-width: 1200px;
-}
-#text .txt h1 {
+.container #text p {
   font-size: 90px;
-  font-weight: lighter;
+  padding: 30px 0px;
 }
-#text .txt h1 span {
+.container #text p span {
   font-weight: 700;
 }
-
-#last-cntnt {
-  position: relative;
-  padding: 30px;
-  width: 1300px;
-  margin: 0 auto;
+.container #last-cntnt {
+  padding-bottom: 30px;
   display: flex;
 }
-#last-cntnt .left input {
+.container #last-cntnt .left input {
   padding: 20px;
   border-radius: 30px;
   border: none;
   font-size: 24px;
-  color: black;
+  color: rgb(208, 204, 204);
   background-color: rgba(219, 215, 215, 0.374);
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
+  text-align: center;
 }
-#last-cntnt .left input:focus {
+.container #last-cntnt .left input:focus {
   transform: translate(-10px, 0px);
 }
-#last-cntnt .right {
-  transition: 0.3s ease-in-out;
-  position: absolute;
-  left: 268px;
-  top: 29px;
-  display: flex;
+.container #last-cntnt .right {
+  transform: translate(-40px, 0px);
 }
-#last-cntnt .right a {
+.container #last-cntnt .right a {
+  display: inline-block;
   padding: 20px;
   width: 170px;
   border-radius: 30px;
@@ -141,12 +48,9 @@ nav ul li a {
   font-size: 24px;
   text-align: center;
 }
-#last-cntnt .right a:hover {
-  background-color: blue;
-}
-#last-cntnt .right p {
+.container #last-cntnt .right span {
+  display: inline-block;
   max-width: 400px;
-  margin: 10px;
 }
 
 #cards .cards-container {
@@ -455,6 +359,7 @@ nav ul li a {
 }
 #recommend .imgs_container .img_item .end p:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 #recommend .rcmnd_ftr {
   display: flex;
@@ -545,4 +450,73 @@ nav ul li a {
 }
 #footer .ftr_container .item ul li .ftr_link:hover {
   text-decoration: underline;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+.container .navbar {
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-direction: row;
+}
+.container .navbar .logo {
+  display: inline-block;
+  width: 150px;
+}
+.container .navbar .logo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .navbar nav {
+  line-height: 40px;
+}
+.container .navbar nav ul {
+  list-style-type: none;
+  display: flex;
+}
+.container .navbar nav ul .height:hover {
+  text-decoration: underline;
+}
+.container .navbar nav ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container .navbar nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.container .navbar nav ul div {
+  position: relative;
+}
+.container .navbar nav ul div .srch {
+  padding: 10px 30px;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(191, 190, 190, 0.736);
+  border-radius: 20px;
+}
+.container .navbar nav ul div i {
+  position: absolute;
+  left: 10px;
+  top: 14px;
+}
+.container .navbar nav ul .btn {
+  margin-left: 5px;
+  background-color: black;
+  padding: 8px 18px;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  display: inline-block;
+  border: none;
+}
+.container .navbar nav ul .btn:hover {
+  background-color: blue;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
