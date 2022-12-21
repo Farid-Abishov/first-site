@@ -18,7 +18,7 @@ body {
   font-weight: 700;
 }
 .container #last-cntnt {
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   display: flex;
 }
 .container #last-cntnt .left input {
@@ -48,9 +48,14 @@ body {
   font-size: 24px;
   text-align: center;
 }
+.container #last-cntnt .right a:hover {
+  background-color: blue;
+}
 .container #last-cntnt .right span {
+  margin-left: 5px;
   display: inline-block;
   max-width: 400px;
+  color: rgba(86, 85, 85, 0.697);
 }
 
 #cards .cards-container {

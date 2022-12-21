@@ -1,6 +1,4 @@
-body{
-    font-family: 'Roboto', sans-serif;
-}
+
 .container{
      #text{
         p{
@@ -12,7 +10,7 @@ body{
         }
      }
      #last-cntnt{
-        padding-bottom: 30px;
+        padding-bottom: 60px;
        display: flex;
        .left{
          input{
@@ -30,10 +28,15 @@ body{
           a{
             display: inline-block;
             @include big_btn(20px,170px,30px,black,white,none,24px,center);
+            &:hover{
+                background-color: $btn_hvr_color;
+            }
           }
           span{
+            margin-left: 5px;
             display: inline-block;
             max-width: 400px;
+            color: rgba(86, 85, 85, 0.697);
           }
        }
      }
