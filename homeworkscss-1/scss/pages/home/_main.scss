@@ -43,8 +43,6 @@
 }
 #cards{
     .cards-container{
-         width: $main-width;
-         margin: 0 auto;
          padding-bottom: 50px;
          .item_container{
         @include flex(flex,row,space-between,10px);
@@ -61,6 +59,7 @@
                 img{
                    @include img(10px,100%,100%,cover);
                 }
+                
             }
             .card_text{
                 padding: 10px;
@@ -98,8 +97,6 @@
     }
 }
 .all{
-    width: $main-width;
-    margin: 0 auto;
     .above{
         @include flex(flex,row,space-between,10px);
         .left{
@@ -202,7 +199,7 @@
                 }
             }
             img{
-                @include img(10px,100%,100%,cover);
+                @include img(20px,100%,100%,cover);
             }
             &:hover{
                  transform: translate(0px,-3px);
@@ -244,9 +241,6 @@
     }
 }
 #recommend{
-   
-    margin: 0 auto;
-    width: $main-width;
     .imgs_container{
         padding-top: 20px;
         padding-bottom: 30px;

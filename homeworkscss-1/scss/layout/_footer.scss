@@ -1,9 +1,6 @@
 #footer{
-    width: $main-width;
-    margin: 0 auto;
     padding-bottom: 20px;
-   .ftr_container{
-       
+   .ftr_container{ 
        @include flex(flex,row,space-between,10px);
        .item{
             padding-bottom: 80px;
