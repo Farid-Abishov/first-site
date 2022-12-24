@@ -80,6 +80,11 @@ body {
 .container .navbar nav {
   line-height: 40px;
 }
+@media (max-width: 1024px) {
+  .container .navbar nav {
+    display: none;
+  }
+}
 .container .navbar nav ul {
   list-style-type: none;
   display: flex;
